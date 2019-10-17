@@ -7,17 +7,23 @@
 <body>
   <br>
   <div class="container">
-    <button class="btn btn-info"><a style="color:white" href="gui.html">< Back</a></button>
-
+    <button class="btn btn-info"><a style="color:white" href="gui.html">< Back</a></button><br><br>
+<!-- 
     <div class="jumbotron">
       <h1>Weather Forecast</h1>
       <h2>Powered by Python</h2>
       <p>Rendered by HTML and JavaScript</p>
     </div>
-    <br>
+    <br> 
     <label>Enter your city here</label>
-    <input id="city" type="text" placeholder="City"/>
-    <button class="btn btn-success" onclick="get_weather()">Go!</button>
-
+    <input id="city" type="text" placeholder="City"/> -->
+    <label>Enter time</label><br>
+    <input type="time" id="time" required><br><br>
+    <label>Enter time</label><br>
+    <input type="date" id="date" required><br><br>
+    <button class="btn btn-success" onclick="get_weather()">Get Prediction!</button>
+    <div id="New">
+      <h3>Your output will be shown here!</h3>
+    </div>
   </div>
 <body>

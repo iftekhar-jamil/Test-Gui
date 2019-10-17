@@ -3,5 +3,8 @@ beautifulsoup4
 Flask
 numpy
 keras
-tensorflow
 lxml
+opencv-python
+matplotlib
+scikit-learn
+pandas
